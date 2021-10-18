@@ -17,7 +17,7 @@ const Footer = () => {
                     <div className='col-lg-6 col-md-6 col-sm-7 col-12 d-flex justify-content-center align-items-center'>
                         <div>
                             <h3 className='text-info text-center py-3'>Location</h3>
-                            <img src={img} alt="" width='100%' />
+                            <img src={img} alt="" width='100%' height='300px' />
                         </div>
                     </div>
                     <p className='my-5 text-center text-white m-0 fs-5'>

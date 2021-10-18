@@ -20,7 +20,7 @@ const Banner = () => {
                                 <p className="my-5 opacity-75">
                                     Facing Health related issues ? Feeling dizzy ? Suffering from a severe headache? Feeling deep pain? We are here to sort out and take care of any health related issues of yours.
                                 </p>
-                                <a className="btn btn-dark text-white" href="https://www.youtube.com">Explore Us</a>
+                                <a className="btn btn-dark text-white" href="https://www.youtube.com/watch?v=vshSgMxVxPA">Explore Us</a>
                             </div>
                         </div>
 

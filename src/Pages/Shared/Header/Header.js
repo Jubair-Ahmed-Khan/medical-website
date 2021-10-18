@@ -28,16 +28,29 @@ const Header = () => {
                                 <NavLink className="nav-link" to="/services">Services</NavLink>
                             </li>
                         </ul>
-                        <span className="navbar-text mt-3">
-                            <img src="" className="mx-3" alt="user_photo" />
-                            <span>{user.displayName}</span>
-                        </span>
                         {
                             user?.email ?
-                                <Button onClick={logOut} variant="light me-5">Logout</Button>
+                                <span className="navbar-text mt-3">
+                                    <img src="" className="mx-3" alt="" />
+                                    <span className="me-3">{user.displayName}
+                                    </span>
+                                    <Button onClick={logOut} variant="dark me-3">Logout</Button>
+
+                                </span>
+
                                 :
-                                <NavLink to="/login">Login</NavLink>
+                                <span>
+                                    <button className="btn btn-dark me-3">
+                                        <NavLink to="/login" className="text-decoration-none text-white">Login</NavLink>
+                                    </button>
+                                    <button className="btn btn-dark me-3">
+                                        <NavLink to="/register" className="text-decoration-none text-white">Register</NavLink>
+                                    </button>
+                                </span>
+
                         }
+
+
                     </div>
                 </div>
             </nav>
