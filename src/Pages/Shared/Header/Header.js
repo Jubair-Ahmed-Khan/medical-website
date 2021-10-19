@@ -6,7 +6,6 @@ import './Header.css';
 
 const Header = () => {
     const { user, logOut } = useAuth();
-    console.log(user);
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light nav-bg" >

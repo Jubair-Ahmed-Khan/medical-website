@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './context/AuthProvider';
+import DoctorContainer from './Pages/Doctors/DoctorContainer/DoctorContainer';
 import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login/Login';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
@@ -34,7 +35,7 @@ function App() {
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
             <PrivateRoute path="/doctors">
-
+              <DoctorContainer></DoctorContainer>
             </PrivateRoute>
             <Route path="/login">
               <Login></Login>

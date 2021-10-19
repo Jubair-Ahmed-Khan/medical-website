@@ -10,7 +10,7 @@
         "id": 2,
         "img": "./images/doctors/doctor-2.jpg",
         "name": "Dr. Fatema Yeasmin",
-        "department": "Skin and Dermatology",
+        "department": "Skin & Dermatology",
         "contact": "01820-659832"
     },
     {
@@ -31,42 +31,42 @@
         "id": 5,
         "img": "./images/doctors/doctor-5.jpg",
         "name": "Dr. Farhana Rashid",
-        "department": "",
-        "contact": ""
+        "department": "Gynecology & Surgeon",
+        "contact": "01620-902054"
     },
     {
         "id": 6,
         "img": "./images/doctors/doctor-6.jpg",
-        "name": "",
-        "department": "",
-        "contact": ""
+        "name": "Dr. Renu Gupta",
+        "department": "Skin & Sex",
+        "contact": "01918-305090"
     },
     {
         "id": 7,
         "img": "./images/doctors/doctor-7.jpg",
-        "name": "",
-        "department": "",
-        "contact": ""
+        "name": "Dr. Tayeb Hossain",
+        "department": "Diabetes Specialist",
+        "contact": "01620-803097"
     },
     {
         "id": 8,
         "img": "./images/doctors/doctor-8.jpg",
-        "name": "",
-        "department": "",
-        "contact": ""
+        "name": "Dr. Khalilur Rahman",
+        "department": "Headache",
+        "contact": "01719-296354"
     },
     {
         "id": 9,
         "img": "./images/doctors/doctor-9.jpg",
-        "name": "",
-        "department": "",
-        "contact": ""
+        "name": "Dr. Younus Ali",
+        "department": "Cardiology",
+        "contact": "01320-975846"
     },
     {
-        "id": 9,
+        "id": 10,
         "img": "./images/doctors/doctor-10.jpg",
-        "name": "",
-        "department": "",
-        "contact": ""
+        "name": "Dr. Lutfur Rahman",
+        "department": "Chest & Medicine",
+        "contact": "01872-375767"
     }
 ]
