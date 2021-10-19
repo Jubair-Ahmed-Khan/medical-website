@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "img": "./images/doctors/doctor-1.jpg",
+        "name": "Dr. Monjur Hasan",
+        "department": "Medicine",
+        "contact": "01712-820353"
+    },
+    {
+        "id": 2,
+        "img": "./images/doctors/doctor-2.jpg",
+        "name": "Dr. Fatema Yeasmin",
+        "department": "Skin and Dermatology",
+        "contact": "01820-659832"
+    },
+    {
+        "id": 3,
+        "img": "./images/doctors/doctor-3.jpg",
+        "name": "Dr. Ferdous Talukder",
+        "department": "Orthopedic Surgery",
+        "contact": "01521-375729"
+    },
+    {
+        "id": 4,
+        "img": "./images/doctors/doctor-4.jpg",
+        "name": "Dr. Tajmira Sultana",
+        "department": "Gynecology",
+        "contact": "01683-429181"
+    },
+    {
+        "id": 5,
+        "img": "./images/doctors/doctor-5.jpg",
+        "name": "Dr. Farhana Rashid",
+        "department": "",
+        "contact": ""
+    },
+    {
+        "id": 6,
+        "img": "./images/doctors/doctor-6.jpg",
+        "name": "",
+        "department": "",
+        "contact": ""
+    },
+    {
+        "id": 7,
+        "img": "./images/doctors/doctor-7.jpg",
+        "name": "",
+        "department": "",
+        "contact": ""
+    },
+    {
+        "id": 8,
+        "img": "./images/doctors/doctor-8.jpg",
+        "name": "",
+        "department": "",
+        "contact": ""
+    },
+    {
+        "id": 9,
+        "img": "./images/doctors/doctor-9.jpg",
+        "name": "",
+        "department": "",
+        "contact": ""
+    },
+    {
+        "id": 9,
+        "img": "./images/doctors/doctor-10.jpg",
+        "name": "",
+        "department": "",
+        "contact": ""
+    }
+]

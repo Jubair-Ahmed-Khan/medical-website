@@ -21,7 +21,7 @@ const Register = () => {
 
                     {/* login form  */}
                     <div className="col-sm-12 col-md-8 col-lg-6 py-5">
-                        <form className="bg-white p-5 shadow-lg">
+                        <div className="bg-white p-5 shadow-lg">
                             <h1 className="mb-4">Register</h1>
                             <div className="mb-3">
                                 <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
@@ -44,7 +44,7 @@ const Register = () => {
                             <button className=" btn btn-info w-100" onClick={signInUsingGoogle}>
                                 Sign in using Google
                             </button>
-                        </form>
+                        </div>
                     </div>
 
                 </div>

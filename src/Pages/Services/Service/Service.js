@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Service.css';
 
 const Service = (props) => {
     const { id, img, name, description } = props.service;
@@ -23,13 +22,11 @@ const Service = (props) => {
                     {/* card footer  */}
                     <div className="d-flex justify-content-center align-items-center">
                         {/* card submit button  */}
-
                         <button type="button" className="btn btn-dark w-100 my-3 mx-3 text-center">
                             <Link to={`/serviceDetails/${id}`} className="text-decoration-none">
                                 <span className="ms-2 text-primary">View Details</span>
                             </Link>
                         </button>
-
                     </div>
                 </div>
             </div>
