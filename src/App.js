@@ -25,9 +25,6 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/about">
-
-            </Route>
             <PrivateRoute path="/services">
               <ServiceContainer></ServiceContainer>
             </PrivateRoute>

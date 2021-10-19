@@ -16,7 +16,7 @@ const Service = (props) => {
                     {/* card info */}
                     <div className="card-body">
                         <h2 className="text-primary">{name}</h2>
-                        <p>{description.slice(0, 150)} ...</p>
+                        <p className="mt-3">{description.slice(0, 150)} ...</p>
                     </div>
 
                     {/* card footer  */}

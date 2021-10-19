@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
 import useAuth from './../../../hooks/useAuth';
 
 const Login = () => {
-    const { signInUsingGoogle, user } = useAuth();
+    const { signInUsingGoogle } = useAuth();
     const imgSrc = './images/login/signin.png';
     //console.log(signInUsingGoogle, ' user : ', user.name);
     // const handleSignIn = (e) => {
