@@ -8,14 +8,14 @@ const useFirebase = () => {
     const [user, setUser] = useState({});
     //const [isloading, setIsLoading] = useState(true);
     const auth = getAuth();
-
+    const googleProvider = new GoogleAuthProvider();
     const signInUsingGoogle = () => {
         //setIsLoading(true);
-        const googleProvider = new GoogleAuthProvider();
+        // const googleProvider = new GoogleAuthProvider();
         signInWithPopup(auth, googleProvider)
             .then(result => {
-                //setUser(result.user);
-                console.log(result.user);
+                setUser(result.user);
+                // console.log(result.user);
             })
         //.finally(() => setIsLoading(false));
     }

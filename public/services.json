@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "img": "./images/services/ambulance.jpg",
+        "name": "Ambulance Service",
+        "description": "Medicare Hospital, Dolairpar provide emergency ambulance service in Dhaka."
+    },
+    {
+        "id": 2,
+        "img": "./images/services/gastroenterology.jpg",
+        "name": "Gastroenterology Centre",
+        "description": "Every patient is unique.Medicare Hospital of Gastroenterologists and Hepatologists with national and international training, qualification and experience ensures that you are treated specially, individually, uniquely."
+    },
+    {
+        "id": 3,
+        "img": "./images/services/pathology.jpg",
+        "name": "Laboratory & Pathology Medicine",
+        "description": "Medicare Hospital Laboratory concentration on best quality patient care services.The proper & timely reporting plays an important role in corroborative medical decisions for the best patient attention."
+    },
+    {
+        "id": 4,
+        "img": "./images/services/covid.jpg",
+        "name": "Covid-19",
+        "description": "Medicare Hospital takes special care for covid-19 patient. In this hospital there are enough oxygen supply and modern medical equipments"
+    },
+    {
+        "id": 5,
+        "img": "./images/services/ct-scan.jpg",
+        "name": "CT SCAN",
+        "description": "Medicare Hospital provides CT Scan services. Here the cost of CT Scan is low.Besides, the CT Scan machine is sophisticated"
+    },
+    {
+        "id": 6,
+        "img": "./images/services/mammography.jpg",
+        "name": "Mammography",
+        "description": "Medicare Hospital is a best place for Memography. Here, Mammography is operated by latest machine and skilled operator"
+    },
+    {
+        "id": 7,
+        "img": "./images/services/x-ray.jpg",
+        "name": "Digital Xray",
+        "description": "Medicare Hospital provides X-ray Services very well. We give X-ray Report within a limited time.Our X-ray machines are latest "
+    },
+    {
+        "id": 8,
+        "img": "./images/services/dopler.jpg",
+        "name": "ECHO Color Dopler",
+        "description": "Medicare Hospital also provides Echo Color Dopler Services. This service is new in our hospital and popular as well , because a very few hspital provide this service"
+    },
+    {
+        "id": 9,
+        "img": "./images/services/cardio.jpg",
+        "name": "ECHO Cardio Graphy",
+        "description": "Medicare Hospital also gives cardio related services. We have specialized Doctors to provide you right treatment and save your life"
+    },
+    {
+        "id": 10,
+        "img": "./images/services/",
+        "name": "Advance Laparoscopy",
+        "description": "Medicare Hospital also gives cardio related services. We have specialized Doctors to provide you right treatment and save your life"
+    }
+]

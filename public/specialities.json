@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "fas fa-hand-holding-medical",
+        "name": "Excellent Services",
+        "description": "Our Special Team provide proper service for you."
+    },
+    {
+        "id": 2,
+        "icon": "fas fa-user-md",
+        "name": "Qualified Doctors",
+        "description": "Renowned qualified doctors give you proper treatment."
+    },
+    {
+        "id": 3,
+        "icon": "fas fa-ambulance",
+        "name": "Emergency Departments",
+        "description": "24x7 hours we are ready for you better service."
+    },
+    {
+        "id": 4,
+        "icon": "fas fa-microscope",
+        "name": "Latest Medical equipment",
+        "description": "New enovation medical equipment are available."
+    }
+]

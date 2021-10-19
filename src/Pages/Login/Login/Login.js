@@ -4,10 +4,14 @@ import { useHistory } from 'react-router-dom';
 import useAuth from './../../../hooks/useAuth';
 
 const Login = () => {
-    const { signInUsingGoogle } = useAuth();
+    const { signInUsingGoogle, user } = useAuth();
     const imgSrc = './images/login/signin.png';
-
-
+    //console.log(signInUsingGoogle, ' user : ', user.name);
+    // const handleSignIn = (e) => {
+    //     // console.log);
+    //     e.preventDefault();
+    //     console.log('habjia');
+    // }
     return (
         <div>
             <div className="container py-5">
@@ -22,7 +26,7 @@ const Login = () => {
 
                     {/* login form  */}
                     <div className="col-sm-12 col-md-8 col-lg-6 py-5">
-                        <form className="bg-white p-5 shadow-lg">
+                        <div className="bg-white p-5 shadow-lg">
                             <h1 className="mb-4">Login</h1>
                             <div className="mb-3">
                                 <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
@@ -39,10 +43,11 @@ const Login = () => {
                                 <Link className="text-danger text-decoration-none" to="/register">Not a member yet? Please register</Link>
                             </p>
                             <p className="text-center my-3">---- or ----</p>
-                            <button className=" btn btn-info w-100" onClick={signInUsingGoogle}>
+                            <button onClick={signInUsingGoogle} className=" btn btn-info w-100">
+
                                 Sign in using Google
                             </button>
-                        </form>
+                        </div>
                     </div>
 
                 </div>
