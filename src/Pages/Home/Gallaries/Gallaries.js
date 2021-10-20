@@ -21,7 +21,7 @@ const Gallaries = () => {
                 <h2 className="text-primary text-center pt-5">Gallary</h2>
 
                 {/* display gallary images  */}
-                <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 my-5">
+                <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 my-5">
                     {
                         gallaries.map(gallary => <Gallary
                             key={gallary.id}
