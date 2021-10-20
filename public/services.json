@@ -3,60 +3,60 @@
         "id": 1,
         "img": "https://i.ibb.co/G5p6PPb/ambulance.jpg",
         "name": "Ambulance Service",
-        "description": "Medicare Hospital, Dolairpar provide emergency ambulance service in Dhaka."
+        "description": "Medicare Hospital, Dolairpar provide emergency ambulance service in Dhaka.Whenever we receive a call from any patient for ambulance, we try our level best to reach the destination in time and carry the patient to the hospital with great care."
     },
     {
         "id": 2,
         "img": "https://i.ibb.co/dgps4Wf/gastroenterology.jpg",
         "name": "Gastroenterology",
-        "description": "Every patient is unique.Medicare Hospital of Gastroenterologists and Hepatologists with national and international training, qualification and experience ensures that you are treated specially, individually, uniquely."
+        "description": "Every patient is unique.Medicare Hospital of Gastroenterologists and Hepatologists with national and international training, qualification and experience ensures that you are treated specially, individually, uniquely.Patient will find our serviceof Gastroenterology very good we hope."
     },
     {
         "id": 3,
         "img": "https://i.ibb.co/S5qfJxG/pathology.jpg",
         "name": "Pathology",
-        "description": "Medicare Hospital Pathology and Laboratory concentration on best quality patient care services.The proper & timely reporting plays an important role in corroborative medical decisions for the best patient attention."
+        "description": "Medicare Hospital Pathology and Laboratory concentration on best quality patient care services.The proper & timely reporting plays an important role in corroborative medical decisions for the best patient attention. Pathology Services in our hospital is very cheap and we provide best service in Bangladesh."
     },
     {
         "id": 4,
         "img": "https://i.ibb.co/cb7MQb1/covid.jpg",
         "name": "Covid-19",
-        "description": "Medicare Hospital takes special care for covid-19 patient. In this hospital there are enough oxygen supply and modern medical equipments"
+        "description": "Medicare Hospital takes special care for covid-19 patient. In this hospital there are enough oxygen supply and modern medical equipments.We have enough ICU for emergency patient.Our nurses and other staffs are always ready to serve the patient in any time.We take special care to the patient"
     },
     {
         "id": 5,
         "img": "https://i.ibb.co/dpq1RPK/ct-scan.jpg",
         "name": "CT SCAN",
-        "description": "Medicare Hospital provides CT Scan services. Here the cost of CT Scan is low.Besides, the CT Scan machine is sophisticated"
+        "description": "Medicare Hospital provides CT Scan services. Here the cost of CT Scan is low.Besides, the CT Scan machine is sophisticated.Nowadays, amount of CT scan is increasing throughout the country.So, if any patient need CT scan service , they are welcome to our center as we are capable to provide service fast and efficiently to vast patient"
     },
     {
         "id": 6,
         "img": "https://i.ibb.co/QNH76zm/mammography.jpg",
         "name": "Mammography",
-        "description": "Medicare Hospital is a best place for Memography. Here, Mammography is operated by latest machine and skilled operator"
+        "description": "Medicare Hospital is a best place for Mammography. Here, Mammography is operated by latest machine and skilled operator.Mammography is generally a service given to women. We have enough female doctors and nurses so that women can feel comfort to our hospital to take the service"
     },
     {
         "id": 7,
         "img": "https://i.ibb.co/8xRx76T/x-ray.jpg",
         "name": "Digital Xray",
-        "description": "Medicare Hospital provides X-ray Services very well. We give X-ray Report within a limited time.Our X-ray machines are latest "
+        "description": "Medicare Hospital provides X-ray Services very well. We give X-ray Report within a limited time.Our X-ray machines are latest. Besides our X-ray cost is low and we provide best X-ray images along with symptoms of diseases and bad sign and give proper advice to the patient"
     },
     {
         "id": 8,
         "img": "https://i.ibb.co/rtvsX9n/dopler.jpg",
         "name": "ECHO Color Dopler",
-        "description": "Medicare Hospital also provides Echo Color Dopler Services. This service is new in our hospital and popular as well , because a very few hspital provide this service"
+        "description": "Medicare Hospital also provides Echo Color Dopler Services. This service is new in our hospital and popular as well , because a very few hospital provide this service.Patient coming to our hospital will find this service very helpful as we have well trained nurses to provide the service"
     },
     {
         "id": 9,
         "img": "https://i.ibb.co/g3x21hc/cardio.jpg",
         "name": "ECHO Cardio Graphy",
-        "description": "Medicare Hospital also gives cardio related services. We have specialized Doctors to provide you right treatment and save your life"
+        "description": "Medicare Hospital also gives cardio related services. We have specialized Doctors to provide you right treatment and save your life.Cardiac problem is common to us nowadays.In most of the case, patient falls to death before bring them to hospital.So,if you need emergency then feel free to contact us. "
     },
     {
         "id": 10,
         "img": "https://i.ibb.co/9hxvZqZ/laparoscopy.jpg",
         "name": "Advance Laparoscopy",
-        "description": "Medicare Hospital also gives cardio related services. We have specialized Doctors to provide you right treatment and save your life"
+        "description": "Medicare Hospital also gives cardio related services. We have specialized Doctors to provide you right treatment and save your life.We are the only hospital in Bangladesh to provide this service to the patient. Most of the patient is unaware of this service now.So we are trying reaching the patient through some advertisement. "
     }
 ]
