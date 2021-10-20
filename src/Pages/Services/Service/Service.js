@@ -29,12 +29,9 @@ const Service = (props) => {
                     <div className="d-flex justify-content-center align-items-center">
 
                         {/*view details button  */}
-                        <button type="button" className="btn btn-dark w-100 my-3 mx-3 text-center">
-                            <Link to={`/serviceDetails/${id}`} className="text-decoration-none">
-                                <span className="ms-2 text-primary">View Details</span>
-                            </Link>
-                        </button>
-
+                        <Link to={`/serviceDetails/${id}`} className="text-decoration-none">
+                            <button type="button" className="btn btn-dark w-100 my-3 mx-auto text-center"> <span className="text-primary">View Details</span></button>
+                        </Link>
                     </div>
                 </div>
             </div>
