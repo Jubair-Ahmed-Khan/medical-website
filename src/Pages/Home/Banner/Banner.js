@@ -1,20 +1,23 @@
 import React from 'react';
 
 const Banner = () => {
+
+    //home banner image link 
     const src = './images/banner/banner-4.png';
+
     return (
         <div className="">
             <div className="container">
                 <div className="row py-5">
 
-                    {/* header image  */}
+                    {/* banner image  */}
                     <div className="col-sm-12 col-md-8 col-lg-6">
                         <div className="me-5">
                             <img className="img-fluid" src={src} alt="welcome_image" />
                         </div>
                     </div>
 
-                    {/* header text  */}
+                    {/* banner text  */}
                     <div className="col-sm-12 col-md-8 col-lg-6 my-5">
                         <div>
                             <h1 className="text-primary text-uppercase">
@@ -29,7 +32,6 @@ const Banner = () => {
                             <a className="btn btn-dark text-white" href="https://www.youtube.com/watch?v=vshSgMxVxPA">Explore Us</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

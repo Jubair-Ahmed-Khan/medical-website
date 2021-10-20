@@ -1,10 +1,12 @@
 import React from 'react';
 import { useHistory } from 'react-router';
-import './NotFound.css';
 
 const NotFound = () => {
+
+    // react history hook 
     const history = useHistory();
 
+    // redirect to home on button click 
     const redirectHome = () => {
         history.push('/home');
     }

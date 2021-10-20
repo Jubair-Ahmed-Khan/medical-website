@@ -2,7 +2,9 @@ import React from 'react';
 import './Doctor.css';
 
 const Doctor = (props) => {
+    // destructuring 
     const { img, name, department, contact } = props.doctor;
+
     return (
         <div className="col-sm-12 col-md-6 col-lg-4">
             <div className="card shadow-lg mb-3">

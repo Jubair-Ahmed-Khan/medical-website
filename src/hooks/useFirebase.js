@@ -7,21 +7,28 @@ import { useHistory } from "react-router";
 initializeAuthentication();
 
 const useFirebase = () => {
+
+    // used states for firefabse
     const [user, setUser] = useState({});
     const [isloading, setIsLoading] = useState(true);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
+
+    // google auth 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
 
+    // google sign in 
     const signInUsingGoogle = () => {
         setIsLoading(true);
         return signInWithPopup(auth, googleProvider);
     }
 
+
+    // handle registration 
     const handleRegister = e => {
         setIsLoading(true);
         e.preventDefault();
@@ -72,15 +79,20 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false));
     }
 
+    // read name value
+    const handleName = e => {
+        setName(e.target.value)
+    }
+
+    // read email value 
     const handleEmail = e => {
         setEmail(e.target.value);
 
     }
+
+    // read password 
     const handlePassword = e => {
         setPassword(e.target.value);
-    }
-    const handleName = e => {
-        setName(e.target.value)
     }
 
     // observe user state change 
@@ -98,6 +110,7 @@ const useFirebase = () => {
         return () => unsubscribed;
     }, [])
 
+    // logout function 
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)
