@@ -1,23 +1,86 @@
 import { useEffect, useState } from "react";
-import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword, updateProfile, signInWithEmailAndPassword } from "firebase/auth";
 import initializeAuthentication from "../Pages/Login/Firebase/firebase.init";
+import { useHistory } from "react-router";
+
 
 initializeAuthentication();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
-    //const [isloading, setIsLoading] = useState(true);
+    const [isloading, setIsLoading] = useState(true);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
+
+
     const signInUsingGoogle = () => {
-        //setIsLoading(true);
-        // const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
+        setIsLoading(true);
+        return signInWithPopup(auth, googleProvider);
+    }
+
+    const handleRegister = e => {
+        setIsLoading(true);
+        e.preventDefault();
+        if (password.length < 6) {
+            setError('Password must be 6 charecters');
+            return;
+        }
+        if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
+            setError(' Ensure string has two uppercase letters.')
+            return;
+        }
+        createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 setUser(result.user);
-                // console.log(result.user);
+                setUserName();
+                window.location.reload();
             })
-        //.finally(() => setIsLoading(false));
+            .catch((error) => {
+                setError(error.message);
+            })
+            .finally(() => setIsLoading(false));
+    }
+
+    // update display name
+    const setUserName = () => {
+        updateProfile(auth.currentUser, { displayName: name })
+            .then(result => { })
+    }
+
+    // user login
+    const processLogIn = e => {
+        e.preventDefault();
+        if (password.length < 6) {
+            setError('Password must be 6 charecters');
+            return;
+        }
+        if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
+            setError(' Ensure string has two uppercase letters.')
+            return;
+        }
+        signInWithEmailAndPassword(auth, email, password)
+            .then(result => {
+                setUser(result.user);
+            })
+            .catch(error => {
+                setError(error.message);
+            })
+            .finally(() => setIsLoading(false));
+    }
+
+    const handleEmail = e => {
+        setEmail(e.target.value);
+
+    }
+    const handlePassword = e => {
+        setPassword(e.target.value);
+    }
+    const handleName = e => {
+        setName(e.target.value)
     }
 
     // observe user state change 
@@ -29,24 +92,32 @@ const useFirebase = () => {
             else {
                 setUser({});
             }
-            //setIsLoading(false);
+            setIsLoading(false);
         });
 
         return () => unsubscribed;
     }, [])
 
     const logOut = () => {
-        // setIsLoading(true);
+        setIsLoading(true);
         signOut(auth)
             .then(() => { })
-        //.finally(() => setIsLoading(false))
+            .finally(() => setIsLoading(false))
     }
 
     return {
         user,
-        //isloading,
+        setUser,
+        isloading,
+        setIsLoading,
         signInUsingGoogle,
-        logOut
+        logOut,
+        handleRegister,
+        handleName,
+        handleEmail,
+        handlePassword,
+        error,
+        processLogIn
     }
 }
 
